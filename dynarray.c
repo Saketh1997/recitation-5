@@ -105,7 +105,8 @@ void dynarray_insert(struct dynarray* da, void* val) {
    * Here, we double the array's capacity each time it needs to be resized.
    */
   if (da->size == da->capacity) {
-    _dynarray_resize(da, da->capacity * 10);
+    int k = 5;
+    _dynarray_resize(da, k * da->capacity);
   }
 
   /*
