@@ -1,4 +1,4 @@
-#!/usr/bin/env gnuplot
+ls#!/usr/bin/env gnuplot
 #
 # This is a simple script that will plot a TSV file as a line graph using
 # gnuplot.  You can run it like so.
