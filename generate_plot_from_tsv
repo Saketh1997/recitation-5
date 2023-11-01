@@ -1,4 +1,4 @@
-ls#!/usr/bin/env gnuplot
+#!/usr/bin/env gnuplot
 #
 # This is a simple script that will plot a TSV file as a line graph using
 # gnuplot.  You can run it like so.
@@ -19,7 +19,7 @@ ls#!/usr/bin/env gnuplot
 # generated plot image (OUTFILE).
 #
 INFILE="results_times2.tsv"
-OUTFILE="plot.jpg"
+OUTFILE="plot_times2.jpg"
 
 set terminal jpeg
 set style data lines
